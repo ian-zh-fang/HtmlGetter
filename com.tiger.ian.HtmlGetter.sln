@@ -5,6 +5,16 @@ VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "com.tiger.ian.HtmlGetter", "com.tiger.ian.HtmlGetter\com.tiger.ian.HtmlGetter.csproj", "{7F72C1D3-7F91-477F-8474-4D3E36C3A339}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "com.tiger.ian.Configuration", "com.tiger.ian.Configuration\com.tiger.ian.Configuration.csproj", "{5842FCCF-5B41-4849-BDD4-7D74555BD6D5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "com.tiger.ian.HtmlClient", "com.tiger.ian.HtmlClient\com.tiger.ian.HtmlClient.csproj", "{05F85654-ED2D-46A7-9B00-60B35D4231D8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "com.tiger.ian.Utility", "com.tiger.ian.Utility\com.tiger.ian.Utility.csproj", "{E15E48B0-0E53-4122-A357-A0363661E7C3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UnitTest", "UnitTest", "{6B86EE1F-E893-486A-8E24-F969B712E34B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "com.tiger.ian.ut.HtmlClient", "com.tiger.ian.ut.HtmlClient\com.tiger.ian.ut.HtmlClient.csproj", "{CFE36A64-54E6-4D22-B9F1-6645C63FFBD9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,8 +25,27 @@ Global
 		{7F72C1D3-7F91-477F-8474-4D3E36C3A339}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7F72C1D3-7F91-477F-8474-4D3E36C3A339}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7F72C1D3-7F91-477F-8474-4D3E36C3A339}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5842FCCF-5B41-4849-BDD4-7D74555BD6D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5842FCCF-5B41-4849-BDD4-7D74555BD6D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5842FCCF-5B41-4849-BDD4-7D74555BD6D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5842FCCF-5B41-4849-BDD4-7D74555BD6D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05F85654-ED2D-46A7-9B00-60B35D4231D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05F85654-ED2D-46A7-9B00-60B35D4231D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05F85654-ED2D-46A7-9B00-60B35D4231D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05F85654-ED2D-46A7-9B00-60B35D4231D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E15E48B0-0E53-4122-A357-A0363661E7C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E15E48B0-0E53-4122-A357-A0363661E7C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E15E48B0-0E53-4122-A357-A0363661E7C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E15E48B0-0E53-4122-A357-A0363661E7C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CFE36A64-54E6-4D22-B9F1-6645C63FFBD9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFE36A64-54E6-4D22-B9F1-6645C63FFBD9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFE36A64-54E6-4D22-B9F1-6645C63FFBD9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFE36A64-54E6-4D22-B9F1-6645C63FFBD9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CFE36A64-54E6-4D22-B9F1-6645C63FFBD9} = {6B86EE1F-E893-486A-8E24-F969B712E34B}
 	EndGlobalSection
 EndGlobal
